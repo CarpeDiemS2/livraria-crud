@@ -1,0 +1,27 @@
+.navegacao{
+    height: 300px;
+    display: flex;
+    list-style: none;
+    background-image: url('../../img/library-fosca.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -120px;
+
+    margin: 0;
+    
+}
+
+.navegacao__link{
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    
+    
+}

@@ -1,5 +1,9 @@
 .navegacao{
-    height: 300px;
+    border-bottom: solid 2px #bcbcbc;
+}
+
+.navegacao__lista{
+    height: 220px;
     display: flex;
     list-style: none;
     background-image: url('../../img/library-fosca.jpg');
@@ -9,7 +13,6 @@
     background-position-y: -120px;
 
     margin: 0;
-    
 }
 
 .navegacao__link{
@@ -21,7 +24,5 @@
     color: white;
     text-decoration: none;
     text-transform: capitalize;
-    
-    
     
 }

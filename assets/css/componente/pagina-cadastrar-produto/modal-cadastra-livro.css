@@ -1,0 +1,84 @@
+.modal{
+    border: solid 2px #bcbcbc;
+    width: 800px;
+    height: 520px;
+   
+    margin: 2rem auto;
+    background: #262A2D;
+    border-radius: 20px;    
+}
+
+.modal__container{
+   
+}
+
+.modal__titulo{
+    text-align: center;
+    color: #FFF;
+    margin-top: 2.3rem;
+}
+
+.modal__formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__input{
+    display: block;
+    padding: 20px 20px;
+    width: calc(100% - 40px);
+    font-size: 1.4rem;
+    background: #262A2D;
+    border: none;
+    color: #FFF;
+    outline: none;
+    margin: 1rem 0;
+    border-bottom: solid 2px #262A2D;
+ 
+   
+
+}
+
+.modal__input::placeholder{
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+.modal__input:hover{
+    border-bottom: solid 2px #bcbcbc;
+    transition: 200ms all;
+}
+
+
+
+.input-preco{
+    margin-bottom: 20px;
+}
+
+
+.modal__botao{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 40%;
+    padding: 20px 0;
+    color: white;
+    font-weight: bold;
+    background: #1B1F23;
+    outline: none;
+    border-radius: 10px;
+    border: solid 1px white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.modal__botao:hover{
+    border: solid 1px green;
+    transition: 300ms all;
+}
+
+
+
+

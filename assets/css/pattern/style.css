@@ -2,5 +2,7 @@ body{
     width: 85%;
     margin: 0 auto;
     /*background: #FFFFFF;*/
-    background: gray;
+    background: #1B1F23;
+
+    box-sizing: border-box;
 }

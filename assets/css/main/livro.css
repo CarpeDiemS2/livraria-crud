@@ -1,0 +1,35 @@
+.livro{
+    margin-top: 3rem;
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    column-gap: 3rem;
+    row-gap: 4rem;
+
+
+    
+}
+
+
+
+.livro__card{
+    border: solid red 1px;
+    /*width: auto;*/
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+
+.livro__card--capa{
+
+}
+
+.livro__card--titulo{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.livro__card--preco{
+    
+}

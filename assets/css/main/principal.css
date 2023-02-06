@@ -1,5 +1,22 @@
-.principal__titulo--principal{
-    font-size: 2rem;
-    margin-top: 2rem;
-    margin-left: 2rem;
+.principal{
+    background: #f1f1f1;
+    /*background: blanchedalmond;*/
+    margin-top: 4rem;
+    height: auto;
+    /*border: solid 2px red;*/
+    border-radius: 10px;
+    
 }
+
+
+
+.principal__titulo--principal{
+    position: relative;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    top: 1.5rem;
+    color: #2397ad;
+
+}
+

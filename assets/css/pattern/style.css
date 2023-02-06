@@ -2,7 +2,8 @@ body{
     width: 85%;
     margin: 0 auto;
     /*background: #FFFFFF;*/
-    background: #343541;
-    color: white;
+    background: #e2e2e2;
+    /*background: gray;*/
+    color: #333;
     box-sizing: border-box;
 }

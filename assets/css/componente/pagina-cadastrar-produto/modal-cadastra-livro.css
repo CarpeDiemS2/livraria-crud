@@ -4,7 +4,7 @@
     height: 520px;
    
     margin: 2rem auto;
-    background: #3f404c;
+    background: #44a6b8;
     border-radius: 20px;    
 }
 
@@ -14,38 +14,40 @@
 
 .modal__titulo{
     text-align: center;
-    color: #FFF;
+    color: #fff;
     margin-top: 2.3rem;
 }
 
 .modal__formulario{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .modal__input{
-    display: block;
     padding: 20px 20px;
-    width: calc(100% - 40px);
+    width: calc(90% - 40px);
     font-size: 1.4rem;
-    background: #3f404c;
+    background: #fff;
     border: none;
-    color: #FFF;
+    color: #000;
     outline: none;
     margin: 1rem 0;
-    border-bottom: solid 2px #3f404c;
+    /*border-bottom: solid 2px #3f404c;*/
+    border-radius: 10px;
 }
 
 .modal__input::placeholder{
-    color: white;
+    color: #000;
     text-transform: capitalize;
-    font-size: 1.4rem;
+    /*font-size: 1.4rem;*/
 }
 
-.modal__input:hover{
+/*.modal__input:hover{
     border-bottom: solid 2px #bcbcbc;
     transition: 200ms all;
-}
+}*/
 
 
 

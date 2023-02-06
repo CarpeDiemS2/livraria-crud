@@ -1,16 +1,18 @@
 .livro{
-    margin-top: 4rem;
+    margin-top: 3rem;
     display: grid;
     /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
     grid-template-columns: repeat(auto-fit, minmax(210px, 210px));
     column-gap: 6rem;
     row-gap: 10rem;
     justify-content: center;
+    background: #98cad2;
 
 }
 
 
 .livro__card{
+    margin-top: 1rem;
     border: solid red 1px;
     /*width: auto;*/
     display: flex;

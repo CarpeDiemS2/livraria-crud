@@ -1,5 +1,7 @@
 .principal{
     background: #f1f1f1;
+    background: #98cad2;
+    background: #0D9CAD;
     /*background: blanchedalmond;*/
     margin-top: 4rem;
     height: auto;
@@ -12,11 +14,11 @@
 
 .principal__titulo--principal{
     position: relative;
+    display: inline;
     font-size: 2rem;
-    font-weight: bold;
     margin-left: 2rem;
     top: 1.5rem;
-    color: #2397ad;
-
+    color: #fff;
+    font-weight: bolder;
 }
 

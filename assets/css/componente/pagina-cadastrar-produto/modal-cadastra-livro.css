@@ -63,19 +63,21 @@
     margin-top: 2rem;
     width: 40%;
     padding: 20px 0;
-    color: white;
+    color: #000;
     font-weight: bold;
-    background: #1B1F23;
+    background: #91c83e;
+    font-weight: bold;
     outline: none;
     border-radius: 10px;
-    border: solid 1px white;
-    font-size: 1.2rem;
+    border: solid 1px #000;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
 .modal__botao:hover{
-    border: solid 1px green;
-    transition: 300ms all;
+    border: solid 1px #fff;
+    background: #9fdf41;
+    transition: 500ms all;
 }
 
 

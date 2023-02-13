@@ -4,12 +4,11 @@
     background: #0D9CAD;
     /*background: blanchedalmond;*/
     margin-top: 4rem;
-    height: auto;
+    /*height: auto;*/
     /*border: solid 2px red;*/
     border-radius: 10px;
     
 }
-
 
 
 .principal__titulo--principal{
@@ -22,3 +21,7 @@
     font-weight: bolder;
 }
 
+.top{
+    content: L;
+    font-family: ibm;
+}

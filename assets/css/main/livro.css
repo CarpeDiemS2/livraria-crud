@@ -4,16 +4,19 @@
     /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
     grid-template-columns: repeat(auto-fit, minmax(210px, 210px));
     column-gap: 6rem;
-    row-gap: 10rem;
+    /*row-gap: -100rem;*/
     justify-content: center;
     background: #98cad2;
+
+
+    
 
 }
 
 
 .livro__card{
-    margin-top: 1rem;
-    border: solid red 1px;
+    margin-top: 1.75rem;
+    /*border: solid red 1px;*/
     /*width: auto;*/
     display: flex;
     flex-direction: column;
@@ -21,11 +24,56 @@
     height: 300px;
     transition: 200ms all;
     cursor: pointer;
+    margin-bottom: 10rem;
 }
 
 .livro__card:hover{
     transform: scale(1.02);
 }
+
+.livro_controles{
+    position: absolute;
+    display: flex;
+    opacity: 90%;
+    padding: 5px;
+
+
+
+}
+
+.livro__controles--editar{
+    font-size: 2.5rem;
+    font-family: ibm;
+    background: #064200;
+    color: white;
+    width: 35px;
+    height: 42px;
+    padding: 5px;
+  
+}
+
+.livro__controles--editar:hover{
+    background: #10c100;
+    transition: 500ms all;
+}
+
+.livro__controles--excluir{
+    font-size: 2.5rem;
+    font-family: ibm;
+    background: #420000;
+    width: 30px;
+    height: 42px;
+    padding: 7px;
+    /*margin-left: 50px;*/
+    color: white;
+}
+
+.livro__controles--excluir:hover{
+    background: #c70202;
+    transition: 500ms all;
+}
+
+
 
 .livro__card--capa{
 

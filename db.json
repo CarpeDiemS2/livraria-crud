@@ -1,0 +1,23 @@
+{
+    "livros": [
+      {
+        "id": 1,
+        "capa": "https://m.media-amazon.com/images/I/61zKgxjwnPL.jpg",
+        "titulo": "A Boa Sorte",
+        "preco": "25.00"
+      },
+      {
+        "id": 2,
+        "capa": "https://m.media-amazon.com/images/I/81ibfYk4qmL.jpg",
+        "titulo": "Herry Potter",
+        "preco": "15.00"
+      },
+      {
+        "id": 3,
+        "capa": "https://m.media-amazon.com/images/I/A1s+6nCSdmL.jpg",
+        "titulo": "Viagem ao centro da terra",
+        "preco": "40.00"
+      }
+    ]
+  }
+  

@@ -8,9 +8,6 @@
     justify-content: center;
     background: #98cad2;
 
-
-    
-
 }
 
 
@@ -36,9 +33,6 @@
     display: flex;
     opacity: 90%;
     padding: 5px;
-
-
-
 }
 
 .livro__controles--editar{
@@ -76,7 +70,8 @@
 
 
 .livro__card--capa{
-
+    width: 210px;
+    height: 300px;
 }
 
 .livro__card--titulo{
@@ -89,4 +84,16 @@
     font-size: 1.3rem;
     font-weight: bold;
     text-align: center;
+}
+
+@media screen and (min-width: 992px){ 
+    .livro{
+        column-gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .livro{
+        column-gap: 6rem;
+    }
 }

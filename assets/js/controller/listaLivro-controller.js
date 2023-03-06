@@ -1,5 +1,7 @@
 import { livroService } from "../service/livro-service.js";
 
+
+//ESQUELETO
 const criaLivro = (id, capa, titulo, preco) => {
     const linhaNovoLivro = document.createElement('div');
     linhaNovoLivro.classList.add("livro__card");
@@ -19,8 +21,10 @@ const criaLivro = (id, capa, titulo, preco) => {
     //console.log(linhaNovoLivro);
     return linhaNovoLivro;
 }
+
 const containerLivro = document.querySelector('.livro');
 
+//LISTAGEM
 livroService.listarLivros().then(data => {
     data.forEach(livroData => {
         containerLivro.appendChild(criaLivro(

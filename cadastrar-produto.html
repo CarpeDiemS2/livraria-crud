@@ -30,17 +30,17 @@
     <main class="modal">
         <section class="modal__container">
             <h1 class="modal__titulo">Novo Produto</h1>
-            <form action="" class="modal__formulario">
+            <form data-form action="" class="modal__formulario">
 
-                <input name="nome" placeholder="nome" type="text" class="modal__input" required>
-                <input name="capa" placeholder="capa" type="url" class="modal__input" required>
-                <input name="preco" placeholder="preço" type="text" class="modal__input" required id="input-preco">
-
+                <input data-capa name="capa" placeholder="capa" type="url" class="modal__input" required>
+                <input data-titulo name="nome" placeholder="nome" type="text" class="modal__input" required>
+                <input data-preco name="preco" placeholder="preço" type="text" class="modal__input" required id="input-preco">
 
                 <button class="modal__botao" type="submit">Cadastrar</button>
             </form>
         </section>
     </main>
 </body>
+<script type="module" src="assets/js/controller/cadastraLivro-controller.js"></script>
 
 </html>

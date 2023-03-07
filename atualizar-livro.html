@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" href="assets/css/reset/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset/reset.css">
+    <link rel="stylesheet" href="assets/css/pattern/style.css">
+    <link rel="stylesheet" href="assets/css/header/status.css">
+    <link rel="stylesheet" href="assets/css/header/navegacao.css">
+
+    <link rel="stylesheet" href="assets/css/componente/pagina-cadastrar-produto/modal-cadastra-livro.css">
+</head>
+
+<body>
+    <header>
+        <div class="status"></div>
+        <nav class="navegacao">
+            <ul class="navegacao__lista">
+                <li><a class="navegacao__link" href="index.html">início</a></li>
+                <li><a class="navegacao__link" href="">contato</a></li>
+                <li><a class="navegacao__link" href="cadastrar-produto.html">cadastrar produto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="modal">
+        <section class="modal__container">
+            <h1 class="modal__titulo">Atualizar Produto</h1>
+            <form data-form action="" class="modal__formulario">
+
+                <input data-capa name="capa" placeholder="capa" type="url" class="modal__input" required>
+                <input data-titulo name="nome" placeholder="nome" type="text" class="modal__input" required>
+                <input data-preco name="preco" placeholder="preço" type="text" class="modal__input" required id="input-preco">
+
+                <button class="modal__botao" type="submit">Atualizar</button>
+            </form>
+        </section>
+    </main>
+</body>
+<script type="module" src="assets/js/controller/atualizaLivro-controller.js"></script>
+
+</html>

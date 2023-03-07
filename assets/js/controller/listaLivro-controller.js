@@ -8,9 +8,12 @@ const criaLivro = (id, capa, titulo, preco) => {
     const conteudo = 
     `
     <div class="livro_controles">
-        <span class="livro__controles--editar"></span>
+        <a href="atualizar-livro.html?id=${id}" class="livro__controles--editar"></a>
+        <!--<span class="livro__controles--editar"></span>-->
+        
         <span class="livro__controles--excluir"></span>
     </div>
+    
     <img class="livro__card--capa" src="${capa}" alt="">
     <h3 class="livro__card--titulo">${titulo}</h3>
     <p class="livro__card--preco">${preco}</p>    

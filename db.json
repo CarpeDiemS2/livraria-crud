@@ -1,28 +1,64 @@
 {
   "livros": [
     {
-      "id": 1,
       "capa": "https://m.media-amazon.com/images/I/61zKgxjwnPL.jpg",
-      "titulo": "A Boa Sorte",
-      "preco": "25.00"
+      "titulo": "A Boa Sorte 2",
+      "preco": "350000.00",
+      "id": 1
     },
     {
-      "capa": "https://www.adobe.com/br/express/create/cover/media_185cb84ecbce048cdc76d91c069fe151e12a98df2.jpeg?width=400&format=jpeg&optimize=medium",
-      "titulo": "IGOR DE OLIVEIRA SILVA",
-      "preco": "70",
+      "capa": "https://m.media-amazon.com/images/I/71HUOz-uQVL.jpg",
+      "titulo": "A Cabana",
+      "preco": "R$ 50.00",
+      "id": 2
+    },
+    {
+      "capa": "https://www.lpm.com.br/livros/imagens/viagem_ao_centro_da_terra_classicos_hq_brochura_9788525432292_hd.jpg",
+      "titulo": "A viagem ao centro da terra",
+      "preco": "R$ 20.00",
+      "id": 3
+    },
+    {
+      "capa": "https://grupoautentica.com.br/img/capas/x/alice-no-pais-das-maravilhas-texto-integral-classicos-autentica-1468-20220222110446.jpg",
+      "titulo": "Alice no País das Maravilhas",
+      "preco": "R$ 40.00",
+      "id": 4
+    },
+    {
+      "capa": "https://m.media-amazon.com/images/I/71LqDRRi9jL.jpg",
+      "titulo": "Como o Linux Funciona ",
+      "preco": "R$ 70.00",
+      "id": 5
+    },
+    {
+      "capa": "https://m.media-amazon.com/images/I/81jdJ94mSbL.jpg",
+      "titulo": "Java Como Programar",
+      "preco": "R$ 450.00",
+      "id": 6
+    },
+    {
+      "capa": "https://m.media-amazon.com/images/I/41CKWlj01ML._SX339_BO1,204,203,200_.jpg",
+      "titulo": "Manual De Persuasão Do Fbi",
+      "preco": "R$ 29.40",
+      "id": 7
+    },
+    {
+      "capa": "https://m.media-amazon.com/images/I/71dX9V+FRKL.jpg",
+      "titulo": "Poder & Manipulação ",
+      "preco": "R$ 45.00",
       "id": 8
     },
     {
-      "capa": "https://www.adobe.com/br/express/create/cover/media_185cb84ecbce048cdc76d91c069fe151e12a98df2.jpeg?width=400&format=jpeg&optimize=medium",
-      "titulo": "IGOR DE OLIVEIRA SILVA",
-      "preco": "70",
-      "id": 10
+      "capa": "https://m.media-amazon.com/images/I/71pruYBcIPL.jpg",
+      "titulo": "Desvendando Os Segredos Da Linguagem Corporal",
+      "preco": "R$ 24.70",
+      "id": 9
     },
     {
-      "capa": "https://m.media-amazon.com/images/I/61EGwLlN0ZL._SY344_BO1,204,203,200_QL70_ML2_.jpg",
-      "titulo": "A viagem ao centro da terra",
-      "preco": "49",
-      "id": 12
+      "capa": "https://www.lpm.com.br/livros/imagens/arte_da_guerra_nova_capa_9788525426642_9788525427960_hd.jpg",
+      "titulo": "A Arte da Guerra",
+      "preco": "R$ 26.00",
+      "id": 10
     }
   ]
 }

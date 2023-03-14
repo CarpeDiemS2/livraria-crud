@@ -39,7 +39,7 @@ livroService.listarLivros().then(data => {
 });
 
 //teste de chave
-const secretKey = process.env.chave;
-console.log(secretKey)
+//const secretKey = process.env.chave;
+//console.log(secretKey)
 
 

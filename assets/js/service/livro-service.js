@@ -58,6 +58,9 @@ function atualizarLivro(id, capa, titulo, preco){
 }
 
 
+
+
+
 export const livroService = {
     listarLivros,
     criarLivro,

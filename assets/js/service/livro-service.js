@@ -1,5 +1,5 @@
 const listarLivros = () =>{
-    return fetch("http://localhost:3000/livros")
+    return fetch("https://royalsbooks.onrender.com/livros")
     .then(resposta => {
         return resposta.json();
     });
@@ -7,7 +7,7 @@ const listarLivros = () =>{
 
 
 function criarLivro(capa, titulo, preco) {
-    return fetch("http://localhost:3000/livros",{
+    return fetch("https://royalsbooks.onrender.com/livros",{
         method: 'POST', 
         
         headers: {
@@ -27,7 +27,7 @@ function criarLivro(capa, titulo, preco) {
 
 
 function deletarLivro(id){
-    return fetch(`http://localhost:3000/livros/${id}`, {
+    return fetch(`https://royalsbooks.onrender.com/livros/${id}`, {
         method: 'DELETE'
     });
 }
@@ -35,14 +35,14 @@ function deletarLivro(id){
 
 
 function detalharLivro(id){
-    return fetch(`http://localhost:3000/livros/${id}`)
+    return fetch(`https://royalsbooks.onrender.com/livros/${id}`)
     .then(resposta => {
         return resposta.json();
     })
 }
 
 function atualizarLivro(id, capa, titulo, preco){
-    return fetch(`http://localhost:3000/livros/${id}` ,{
+    return fetch(`https://royalsbooks.onrender.com/livros/${id}` ,{
         method: 'PUT',
         headers: {
             'Content-type': 'application/json'
@@ -56,9 +56,6 @@ function atualizarLivro(id, capa, titulo, preco){
         return resposta.json();
     })
 }
-
-
-
 
 
 export const livroService = {

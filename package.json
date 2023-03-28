@@ -4,19 +4,21 @@
   "description": "nothin'",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oliveiradeigor/livraria-crud.git"
+    "url": "git+https://github.com/sylvianno/livraria-crud.git"
   },
   "author": "igor de oliveira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/oliveiradeigor/livraria-crud/issues"
+    "url": "https://github.com/sylvianno/livraria-crud/issues"
   },
-  "homepage": "https://github.com/oliveiradeigor/livraria-crud#readme",
+  "homepage": "https://github.com/sylvianno/livraria-crud#readme",
   "dependencies": {
-    "json-server": "^0.17.1"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
   }
 }
